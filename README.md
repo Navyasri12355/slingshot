@@ -35,9 +35,8 @@ offline-ai-os/
 │
 ├── demo/
 │   ├── sample_docs/                  # PDFs/TXTs used in live demo
-│   │   ├── research_paper_1.pdf
-│   │   └── research_notes.txt
-│   └── generate_summary_ppt.py       # 🔥 Hardcoded fallback script for demo
+│       ├── research_paper_1.pdf
+│       └── research_notes.txt
 │
 └── shared/
     ├── schemas.py                    # Shared Pydantic models / JSON formats
