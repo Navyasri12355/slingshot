@@ -22,7 +22,7 @@ offline-ai-os/
 │       ├── pptx_generator.py         # generate .pptx via python-pptx
 │       └── python_runner.py          # safe subprocess executor
 │
-├── student2_memory/                  # 💽 Student 2: Memory & AMD Layer
+├──memory/                            # 💽 Student 2: Memory & AMD Layer
 │   ├── onnx_embedder.py              # ONNX Runtime embedding inference
 │   ├── chroma_store.py               # ChromaDB init, insert, query
 │   ├── document_ingester.py          # PDF/TXT chunking + indexing pipeline
