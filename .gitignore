@@ -4,7 +4,7 @@ __pycache__/
 *.pyc
 
 # Models
-student2_memory/models/
+memory/models/
 
 # OS
 .DS_Store
