@@ -33,18 +33,7 @@ offline-ai-os/
 │   └── models/
 │       └── .gitkeep                  # Place ONNX model files here (not committed)
 │
-├── student3_ui/                      # 🎨 Student 3: Face & Flow
-│   ├── README_S3.md
-│   ├── main.py                       # FastAPI app entry point
-│   ├── routes/
-│   │   ├── chat.py                   # POST /chat endpoint
-│   │   ├── memory.py                 # GET /memory/status endpoint
-│   │   └── files.py                  # GET /files/download endpoint
-│   ├── static/
-│   │   ├── index.html                # Main UI shell
-│   │   ├── style.css                 # Dashboard styling
-│   │   └── app.js                    # Chat + log rendering logic
-│   └── mock_responses.py             # Dummy AI responses for UI dev (Phase 1)
+├── app.html                          # Comprehensive frontend file serving POST /chat endpoint, GET /memory/status endpoint, GET /files/download endpoint
 │
 ├── demo/
 │   ├── sample_docs/                  # PDFs/TXTs used in live demo
