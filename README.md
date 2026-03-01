@@ -12,7 +12,7 @@ offline-ai-os/
 ├── requirements.txt                  # All Python dependencies (shared)
 ├── .env.example                      # Environment variable template
 │
-├── student1_agent/                   # 🧑‍💻 Student 1: Brain & Hands
+├── agent/                   # 🧑‍💻 Student 1: Brain & Hands
 │   ├── README_S1.md
 │   ├── llm_config.py                 # Ollama model config & connection
 │   ├── agent_controller.py           # Open Interpreter setup + local mode
