@@ -1,10 +1,3 @@
-"""
-Run with:
-    uvicorn server:app --host 0.0.0.0 --port 8000 --reload
-Then open:
-    http://localhost:8000
-"""
-
 import time
 import os
 from fastapi import FastAPI
