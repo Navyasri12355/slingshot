@@ -1,6 +1,15 @@
 # Python
+venv/
 __pycache__/
 *.pyc
 
-# Virtual env
-venv/
+# Models
+student2_memory/models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
