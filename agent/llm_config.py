@@ -1,8 +1,3 @@
-"""
-llm_config.py — Ollama connection config and model selection.
-Student 1 owns this file.
-"""
-
 import requests
 
 # ── Model selection ────────────────────────────────────────────────────────────

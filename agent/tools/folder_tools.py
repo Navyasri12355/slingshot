@@ -1,8 +1,3 @@
-"""
-tools/folder_tools.py — Folder organization and inspection utilities.
-Student 1 owns this file.
-"""
-
 import os
 import shutil
 from collections import defaultdict

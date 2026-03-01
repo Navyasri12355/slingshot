@@ -1,19 +1,3 @@
-"""
-agent_controller.py — Core agent logic using direct Ollama API calls.
-Student 1 owns this file.
-
-Entry point called by server.py:
-    POST /chat  →  run_agent(message) -> AgentResponse
-
-Returns:
-    {
-        "reply":      str,
-        "logs":       list[str],
-        "file_ready": bool,
-        "file_path":  str | None,
-    }
-"""
-
 import sys
 import os
 import re

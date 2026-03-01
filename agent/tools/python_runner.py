@@ -1,11 +1,3 @@
-"""
-tools/python_runner.py — Safe subprocess wrapper to execute Python scripts.
-Student 1 owns this file.
-
-Used as a fallback: if the agent can't dynamically generate code,
-run a pre-written script instead (e.g. demo/generate_summary_ppt.py).
-"""
-
 import subprocess
 import sys
 import os

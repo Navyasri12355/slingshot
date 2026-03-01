@@ -1,8 +1,3 @@
-"""
-tools/file_tools.py — Basic file read/write/delete operations.
-Student 1 owns this file.
-"""
-
 import os
 
 

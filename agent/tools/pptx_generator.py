@@ -1,8 +1,3 @@
-"""
-tools/pptx_generator.py — Generate .pptx presentations using python-pptx.
-Student 1 owns this file.
-"""
-
 import os
 from datetime import datetime
 

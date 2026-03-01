@@ -1,11 +1,3 @@
-"""
-tool_manager.py — Registry of all tools the agent can call.
-Student 1 owns this file.
-
-Each tool is a plain Python function. The agent_controller imports
-TOOLS_REGISTRY so Open Interpreter knows what's available.
-"""
-
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
