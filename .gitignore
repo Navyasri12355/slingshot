@@ -1,4 +1,15 @@
+# Python
 venv/
-demo/
-/__pycache__/
+__pycache__/
 *.pyc
+
+# Models
+student2_memory/models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
