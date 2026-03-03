@@ -41,7 +41,7 @@ offline-ai-os/
 
 ---
 
-## ⚙️ Installation & setup (concise)
+## ⚙️ Installation & setup
 
 1. Clone:
 
