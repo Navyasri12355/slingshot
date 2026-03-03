@@ -1,4 +1,4 @@
-# 🏆 Offline AI OS — Improved README
+# 🏆 Offline AI OS
 
 **Privacy-First Local AI System | AMD Ryzen Optimized**
 
@@ -10,25 +10,7 @@ Offline AI OS runs fully locally (no cloud) and is optimized for AMD Ryzen CPUs 
 
 ---
 
-## 🏗️ System architecture (visual)
-
-```mermaid
-flowchart LR
-  Browser[Browser UI (app.html)] -->|HTTP/WebSocket| Backend[FastAPI Backend (server.py)]
-  Backend --> LLM[Local LLM (Ollama)]
-  Backend --> Tools[Tool Execution Layer]
-  Backend --> Memory[Memory Layer (ONNX + ChromaDB)]
-  Memory --> ONNX[ONNX Embedding Model (ONNX Runtime)]
-  Tools -->|file ops / exec| PythonRunner[python_runner.py]
-  Tools --> PPT[pptx_generator.py]
-  Tools --> FileTools[file_tools.py]
-  classDef infra fill:#f9f,stroke:#333,stroke-width:1px
-  class Backend,LLM,Tools,Memory,ONNX,PythonRunner,PPT,FileTools infra
-```
-
----
-
-## 📁 Project structure (root-level)
+## 📁 Project structure
 
 ```
 offline-ai-os/
